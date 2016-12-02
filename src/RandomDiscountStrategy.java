@@ -5,7 +5,7 @@ public class RandomDiscountStrategy
 
   private Random rng;
 
-  private RandomDiscountStrategy() {
+  public RandomDiscountStrategy() {
     this.rng = new Random();
   }
 
